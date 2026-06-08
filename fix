@@ -1,0 +1,2 @@
+sh -c 'echo -n "serio0" > /sys/bus/serio/drivers/atkbd/unbind'
+sh -c 'echo -n "serio0" > /sys/bus/serio/drivers/atkbd/bind'
